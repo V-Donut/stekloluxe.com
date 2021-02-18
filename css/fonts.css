@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'AN';
+    src: url(../fonts/AN/AN_Bold.eot);
+    src: url(../fonts/AN/AN_Bold.eot?#iefix) format("embedded-opentype"),
+         url(../fonts/AN/AN_Bold.woff2) format("woff2"),
+         url(../fonts/AN/AN_Bold.woff) format("woff"),
+         url(../fonts/AN/AN_Bold.ttf) format("truetype"),
+         url(../fonts/AN/AN_Bold.otf) format("opentype"),
+         url(../fonts/AN/AN_Bold.svg#AN_Bold) format("svg");
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+000D-FE48;
+}
+
+@font-face {
+    font-family: 'AN';
+    src: url(../fonts/AN/AN_Heavy.eot);
+    src: url(../fonts/AN/AN_Heavy.eot?#iefix) format("embedded-opentype"),
+         url(../fonts/AN/AN_Heavy.woff2) format("woff2"),
+         url(../fonts/AN/AN_Heavy.woff) format("woff"),
+         url(../fonts/AN/AN_Heavy.ttf) format("truetype"),
+         url(../fonts/AN/AN_Heavy.otf) format("opentype"),
+         url(../fonts/AN/AN_Heavy.svg#AN_Heavy) format("svg");
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+000D-FB02;
+}
+
+@font-face {
+    font-family: 'AN';
+    src: url(../fonts/AN/AN_Medium.eot);
+    src: url(../fonts/AN/AN_Medium.eot?#iefix) format("embedded-opentype"),
+         url(../fonts/AN/AN_Medium.woff2) format("woff2"),
+         url(../fonts/AN/AN_Medium.woff) format("woff"),
+         url(../fonts/AN/AN_Medium.ttf) format("truetype"),
+         url(../fonts/AN/AN_Medium.otf) format("opentype"),
+         url(../fonts/AN/AN_Medium.svg#AN_Medium) format("svg");
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+000D-FE48;
+}
+
+@font-face {
+    font-family: 'AN';
+    src: url(../fonts/AN/AN_Regular.eot);
+    src: url(../fonts/AN/AN_Regular.eot?#iefix) format("embedded-opentype"),
+         url(../fonts/AN/AN_Regular.woff2) format("woff2"),
+         url(../fonts/AN/AN_Regular.woff) format("woff"),
+         url(../fonts/AN/AN_Regular.ttf) format("truetype"),
+         url(../fonts/AN/AN_Regular.otf) format("opentype"),
+         url(../fonts/AN/AN_Regular.svg#AN_Regular) format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+000D-FE48;
+}
+
+@font-face {
+    font-family: 'lg';
+    src: url(../fonts/lg/lg.eot);
+    src: url(../fonts/lg/lg.eot?#iefix) format("embedded-opentype"),
+         url(../fonts/lg/lg.woff) format("woff"),
+         url(../fonts/lg/lg.ttf) format("truetype"),
+         url(../fonts/lg/lg.svg#lg) format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+}

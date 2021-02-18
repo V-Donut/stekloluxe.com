@@ -1,0 +1,235 @@
+.has-modal {
+    overflow: hidden;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.modal__wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal__overlay {
+    display: block;
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .8;
+    display: flex;
+}
+
+.modal__box {
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.modal__header {
+    padding: 30px 90px 0 39px;
+}
+
+.modal__title {
+    display: inline-block;
+    font-size: 3em;
+    padding-bottom: 13px;
+    color: #2f2b39;
+    font-weight: 700;
+    line-height: 1;
+    position: relative;
+}
+
+.modal__title:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: var(--basic-color);
+}
+
+.modal__body {
+    font-size: 18px;
+    line-height: 19px;
+    padding: 21px 39px;
+}
+
+.modal__attention {
+    margin-top: 23px;
+    margin-bottom: 19px;
+    padding: 0;
+}
+
+.modal__attention p {
+    margin-bottom: 19px;
+}
+
+.modal__body p {
+    text-align: left;
+}
+
+.modal__body ul {
+    font-weight: 500;
+    list-style: disc;
+    position: relative;
+    padding-left: 9px;
+    margin-left: 17px;
+    line-height: 19px;
+}
+
+.modal__body ul li:not(:last-child) {
+    margin-bottom: 18px;
+}
+
+.modal__close {
+    position: absolute;
+    top: 32px;
+    right: 39px;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: none;
+    background: #fff url('../img/icons/close.svg') no-repeat;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.modal .form-error {
+    font-size: 13px;
+    color: #ff0000;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.modal .form-error--hidden {
+    display: none;
+}
+
+.modal .field-error {
+    border-color: #ff0000;
+}
+
+.service-modal {
+    max-width: 960px;
+}
+
+.request-modal {
+    max-width: 510px;
+}
+
+.client-name,
+.client-phone {
+    height: 52px;
+    border-radius: 4px;
+    width: 100%;
+    padding: 8.5px 12px;
+    font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--basic-black);
+    letter-spacing: -0.3px;
+    margin-top: 15px;
+    outline: 0;
+    border: 1px solid rgba(0, 0, 0, 0.19);
+}
+
+.client-comment {
+    height: 104px;
+    min-height: 52px;
+    border-radius: 4px;
+    max-width: 100%;
+    min-width: 100%;
+    resize: vertical;
+    margin-top: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.19);
+    font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--basic-black);
+    padding: 12px;
+    outline: 0;
+}
+
+.client-order {
+    background-color: #e0e0e0;
+}
+
+.request-modal .form-submit {
+    height: 52px;
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    font: 600 15px/51px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--basic-white);
+    background-image: url('../img/button_bg.png');
+    margin-bottom: 10px;
+    outline: 0;
+}
+
+.request-modal .form-submit:hover {
+    box-shadow: -1px 1px 5px 2px rgba(0,0,0,.45);
+}
+
+.agreement {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    line-height: 1;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.agreement a {
+    text-decoration: underline;
+}
+
+.agreement a:hover,
+.agreement a:active,
+.agreement a:focus {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .modal {
+        overflow: scroll;
+    }
+
+    .modal__header {
+        padding: 30px 90px 0 25px;
+    }
+
+    .modal__body {
+        padding: 21px 25px;
+    }
+
+    .modal__close {
+        right: 24px;
+    }
+
+    .client-name,
+    .client-phone {
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .client-comment {
+        height: 94px;
+        font-size: 14px;
+    }
+}
